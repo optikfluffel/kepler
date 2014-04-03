@@ -19,6 +19,9 @@ defmodule Kepler.Mixfile do
   # To specify particular versions, regardless of the tag, do:
   # { :barbat, "~> 0.1", github: "elixir-lang/barbat" }
   defp deps do
-    [{:sugar, github: "sugar-framework/sugar"}]
+    [
+      {:sugar, github: "sugar-framework/sugar"},
+      {:ex_doc, github: "elixir-lang/ex_doc"}
+    ]
   end
 end
